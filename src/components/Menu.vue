@@ -1,11 +1,11 @@
 <template>
-		<div class="menu">
-			<div
-				@click='$emit("reset")'
-			>
-				<span>Home</span>
-			</div>
-	</div>
+    <div class="menu">
+      <div
+        @click='$emit("reset")'
+      >
+        <span>Home</span>
+      </div>
+  </div>
 </template>
 
 <style scoped>

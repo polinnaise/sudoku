@@ -1,43 +1,42 @@
-
 <template>
-	<div
-		id="app"
-		class="sky"
-	>
+  <div
+    id="app"
+    class="sky"
+  >
   <div class="stars">
-		<Menu
-			v-if='start'
-			@reset='start = false'
-		/>
-		<Sudoku
-			v-if='start'
-			:diff='diff'
-			:showDetails='showDetails'
-			:currentGame='currentGame'
-		/>
-		<div
-			v-else
-			class="back"
-		>
-			<h1>Sudoku</h1>
+    <Menu
+      v-if='start'
+      @reset='start = false'
+    />
+    <Sudoku
+      v-if='start'
+      :diff='diff'
+      :showDetails='showDetails'
+      :currentGame='currentGame'
+    />
+    <div
+      v-else
+      class="back"
+    >
+      <h1>Sudoku</h1>
       <div>
-			<button
-				@click='currentGame = false; start=true'
-				class="neon"
-			>
+      <button
+        @click='currentGame = false; start=true'
+        class="neon"
+      >
       New Game
       </button>
-			<button
-				class="con"
-				v-if='hasCurrentGame'
-				@click='currentGame = true; start = true'
-			>
-			Continue
-			</button>
+      <button
+        class="con"
+        v-if='hasCurrentGame'
+        @click='currentGame = true; start = true'
+      >
+      Continue
+      </button>
       </div>  
-		</div>
     </div>
-	</div>
+    </div>
+  </div>
 </template>
 
 <script>
