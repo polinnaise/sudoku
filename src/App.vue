@@ -82,7 +82,7 @@ html, body {
 	align-items: center;
   font-family: 'Neuropol';
   letter-spacing: 3px;
-  font-size: 19px;
+  font-size: 18px;
   color: white;
 }
 .sky {
