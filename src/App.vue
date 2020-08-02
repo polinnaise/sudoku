@@ -1,3 +1,4 @@
+
 <template>
 	<div
 		id="app"
@@ -72,14 +73,14 @@ export default {
   src: url("./font/neuropol.ttf") format("truetype");
 }
 html, body {
-	margin: 0;
+  margin: 0;
   background-color: #0a2342;
 }
 #app, .back, .timer {
-	display: flex;
+  display: flex;
   flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Neuropol';
   letter-spacing: 3px;
   font-size: 18px;
