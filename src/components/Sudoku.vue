@@ -284,8 +284,7 @@ export default {
     width: 100%;
     margin-bottom: 10px;
 }
-.row,
-.digits {
+.row, .digits {
     display: flex;
 }
 .digits button {

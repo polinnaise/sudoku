@@ -224,4 +224,37 @@ button, button.continue  {
     text-shadow: 0 0 15px rgb(230, 0, 120);
   }
 }
+@media screen and (max-width: 550px) {
+  .sky {
+    background-color: #0a2342;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .neon, .con {
+    width: 150px;
+    display: inherit;
+    margin-top:30%;
+  }
+  .menu {
+    margin-left:10% !important;
+  }
+	.sudoku {
+		justify-content: flex-start;
+		margin-top: 10%;
+	}
+	.digits button {
+		font-size: 15px;
+	}
+	.cell {
+		height: 2em;
+		width: 2em;
+	}
+  .row,
+  .digits {
+     /* Ugly quick fix */
+    display: -webkit-box; 
+    width:60%;
+  }
+}
 </style>
