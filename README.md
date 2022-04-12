@@ -3,7 +3,7 @@
 ![Image](./src/assets/front.png "Front page")
 ![Image](./src/assets/sudi.png "The game")
 
-## Project setup
+## Project setup,
 ```
 npm install
 ```
